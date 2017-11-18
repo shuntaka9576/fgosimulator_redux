@@ -12,7 +12,9 @@
     "lint": "npm run eslint; stylelint src/**/*.css",
     "copy:resources": "cpx \"prod_resources/**/*\" dist",
     "copy:photon": "cpx \"node_modules/photon/dist/css/**/*\" dist/css && cpx \"node_modules/photon/dist/fonts/**/*\" dist/fonts",
-    "prebundle": "npm run copy:resources && npm run copy:photon",
+    "copy:index": "cpx \"index.html\" dist",
+    "copy:icon": "cpx \"icon/**\" dist/icon",
+    "prebundle": "npm run copy:resources && npm run copy:photon && npm run copy:index && npm run copy:icon",
     "bundle": "webpack",
     "package": "npm run bundle && electron-packager dist \"fgo_simulator\" --all--out --icon=\"pic/icon.ico\""
   },

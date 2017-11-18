@@ -1,5 +1,4 @@
 * fgosimulator_redux
-　
 ** Installation
 ```
 npm install

@@ -7,7 +7,7 @@ npm run build
 npm start
 ```
 ## Demo Play
-![fgogif1](https://user-images.githubusercontent.com/12817245/33017538-0a7ea07a-ce36-11e7-8ccc-f3ca21758ba0.gif)
+![fgogif2](https://user-images.githubusercontent.com/12817245/33017975-c8eaf972-ce37-11e7-9947-520e677d784b.gif)
 
 ## Folder Structure
 ```

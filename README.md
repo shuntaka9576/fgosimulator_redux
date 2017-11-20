@@ -6,6 +6,9 @@ npm run prebundle
 npm run build
 npm start
 ```
+## Demo Play
+![fgogif1](https://user-images.githubusercontent.com/12817245/33017538-0a7ea07a-ce36-11e7-8ccc-f3ca21758ba0.gif)
+
 ## Folder Structure
 ```
 fgosimulator_redux
